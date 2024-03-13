@@ -1,0 +1,41 @@
+.order-card {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 2px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  font-size: 15px;
+  color: #333;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Status colors */
+.status-waiting {
+  background-color: red;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #ddd;
+}
+
+.status-done {
+  background-color: green;
+}
+
+.status-delivered {
+  background-color: blue;
+}
